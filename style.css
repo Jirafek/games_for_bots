@@ -1,0 +1,92 @@
+body {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+}
+
+
+table {
+    width: 100%;
+    padding: 8px 8px 8px 8px;
+    margin-bottom: 18px;
+    /*text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);*/
+    background-color: white;
+    border: 1px solid #cdcdcd;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border-collapse: collapse;
+}
+table th {
+    font-size: 16px;
+    padding: 2px;
+    border: 1px solid #cdcdcd;
+    box-shadow: 0px 1px 0px white;
+    -moz-box-shadow: 0 1px 0 white;
+    -webkit-box-shadow: 0 1px 0 white;
+    text-align: center;
+    color: #656161;
+    display: table-cell;
+    background: #fcf8e3;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    font-weight: bold;
+    border: 1px solid #e8d8b9;
+}
+table td {
+    font-size: 16px;
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+    border-right: 0px solid #cdcdcd;
+    border-top: 0px solid #cdcdcd;
+    box-shadow: 0px 1px 0px white;
+    -moz-box-shadow: 0 1px 0 white;
+    -webkit-box-shadow: 0 1px 0 white;
+    display: table-cell;
+}
+
+caption {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    text-align: left;
+    caption-side: bottom;
+}
+
+.mb-2, .my-2 {
+    margin-bottom: 0.5rem!important;
+}
+
+input[type=submit] {
+    width: auto;
+}
+
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+
+.bbcodes, .btn, .btn-border {
+    display: inline-block;
+    vertical-align: middle;
+    background: #3d94c0;
+    padding: 10px 15px;
+    border-radius: 0;
+    background-image: -webkit-linear-gradient(top,#5ba5cb,#3d94c0);
+    line-height: 22px;
+    outline: 0;
+    color: #fff;
+    border: 0 none;
+}
+
+.btn {
+    font-weight: 400;
+    text-align: center;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-size: 1rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
